@@ -151,7 +151,7 @@ class TypeaheadInput extends React.Component {
 
     switch (e.keyCode) {
       case RIGHT:
-      case TAB:
+      //case TAB:
         const cursorPos = this._input.getInstance().selectionStart;
 
         // Autocomplete the selection if all of the following are true:
